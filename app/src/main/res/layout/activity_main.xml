@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvname"
+        />
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Address"
+        android:textSize="20sp"
+        android:layout_below="@+id/etname"
+        />
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvaddress"
+        />
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Phone no."
+        android:textSize="20sp"
+        android:layout_below="@+id/etaddress"
+        />
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvphone"
+        />
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="20dp"
+        android:layout_below="@+id/etphone"
+        android:layout_marginLeft="150dp"
+        />
+
+</RelativeLayout>
